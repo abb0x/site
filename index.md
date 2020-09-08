@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/fonts/ICO/fontawesome-free-5.13.0-web/css/all.css">
+    <link rel="icon" href="./assets/images/beetrootico.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>monticello_Alex</title>
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="header__HUD">
+            <a href="http://www.monticello.com" target="blank"><div class="header__HUD-logo"><img src="./assets/images/header_hud_logo.png"/></div></a>
+            <a href="#HUD-about"><div class="header__HUD-about" id="HUD-about"><span class="hud-circle"><i class="far fa-circle"></i></span>ABOUT US</div></a>
+            <a href="#projects">
+                <div class="header__HUD-projects"><span class="hud-circle"><i class="far fa-circle"></i></span> PROJECTS</div>
+            </a>
+            <a href="#news">
+                <div class="header__HUD-news"><span class="hud-circle"><i class="far fa-circle"></i></span> NEWS</div>
+            </a>
+            <a href="#contact">
+                <div class="header__HUD-contact"><span class="hud-circle"><i class="far fa-circle"></i></span> CONTACT</div>
+            </a>
+                <div class="header__HUD-ICOframe">
+                    <a href="http://facebook.com" target="blank"><div class="header__HUD-fb"><img src="./assets/images/header_fb_ico.png" id="fb"></div></a>
+                    <a href="http://twitter.com" target="blank"><div class="header__HUD-tw"><img src="./assets/images/header_tw_ico.png" id="tw"></div></a>
+                    <a href="http://instagram.com" target="blank"><div class="header__HUD-inst"><img src="./assets/images/header_inst_ico.png" id="inst"></div></a>
+                </div>
+             </div>
+        <div class="header__tit">
+            <h1 class="header__tit-maintit">SIMPLE & MODERN</h1>
+            <h4 class="header__tit-sectit">We make the world's beautiful every day</h4>
+        </div>
+        <div class="header__lowpointer">
+            <svg class="svg-lowpointer"  height="55" width="55"><circle cx="25" cy="25" r="20" stroke="white" stroke-width="1" fill="none" /></svg><span id="lowpointer"><i class="fas fa-chevron-down"></i></span>
+            <!-- <svg class="scrolldown"><path class="a1" d="M0 0 L30 32 L60 0"></path><path class="a2" d="M0 20 L30 52 L60 20"></path><path class="a3" d="M0 40 L30 72 L60 40"></path></svg> -->
+        </div>
+    </div>
+    <div class="projects" id="projects">
+        <div class="projects__container">
+            <div class="projects__container-upline">
+                <svg version="1.1" id="svg_upline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="4px" xml:space="preserve">
+                    <path class="path2" fill="black" stroke-width="3" stroke="#2c4058" d="M0 0 l1120 0"/>
+                  </svg>
+            </div>
+            <div class="projects__container-tit">
+                WHAT WE DO
+            </div>
+            <div class="projects__container-proj1">
+                <div class="projects__container-proj1-pic"><img src="./assets/images/projects_pic1.png"/></div>
+                <div class="projects__container-proj1-text">
+                    <h3 class="projects__container-proj1-text-1">ONE WORLD</h3>
+                    <h2 class="projects__container-proj1-text-2">TRADE CENTER</h2>
+                    <p class="projects__container-proj1-text-article">Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+                    <button id="text--moredetails" type="button">MORE DETAILS</button>
+                    <div class="projects__container-proj1-text-address"><span><i class="fas fa-map-marker-alt" ></i></span> New York City, United States - 1776 feet</div>
+                </div>
+                </div>
+            <div class="projects__container-proj2">
+                <div class="projects__container-proj2-text">
+                    <h3 class="projects__container-proj2-text-1">INTERNATIONAL</h3>
+                    <h2 class="projects__container-proj2-text-2">COMMERCE CENTRE</h2>
+                    <p class="projects__container-proj2-text-article">Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
+                    <button id="text--moredetails-2" type="button">MORE DETAILS</button>
+                    <div class="projects__container-proj2-text-address"><span><i class="fas fa-map-marker-alt" ></i></span> Hong Kong - 1588 Feet</div>
+                </div>
+                <div class="projects__container-proj2-pic"><img src="./assets/images/projects_pic2.png"/></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news" id="news">
+        <div class="news__upline"><svg version="1.1" id="svg_upline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="4px" xml:space="preserve">
+            <path class="path2" fill="black" stroke-width="3" stroke="white" d="M0 0 l1120 0"/>
+          </svg></div>
+        <div class="news__tit">LATEST NEWS</div>
+        <div class="news__cards">
+            <div class="slick multiple-items">
+                <div class="news__cards-card1">
+                    <div class="news__cards-card1-pic"><img src="./assets/images/news_pic_1.png" alt=""></div>
+                    <div class="news__cards-card1-tit">See The Unmatched Beauty Of The Great.</div>
+                    <div class="news__cards-card1-article">Free directories: directories are perfect for customers that are... searching for</div>
+                    <div class="news__cards-card1-author">
+                        <div class="news__cards-card1-author-avatar"><img src="./assets/images/news_avatar1.png" alt=""></div>
+                        <div class="news__cards-card1-author-namedate">
+                                <div class="news__cards-card1-author-namedate-name">ISAAC DUNN</div>
+                                <div class="news__cards-card1-author-namedate-date">09 Feb 2017</div>
+                        </div>
+                </div>
+                </div>
+                <div class="news__cards-card2">
+                    <div class="news__cards-card2-pic"><img src="./assets/images/news_pic_2.png" alt=""></div>
+                    <div class="news__cards-card2-tit">Effective Advertising Pointers.</div>
+                    <div class="news__cards-card2-article">Having a home based business is a wonderful asset to your life...</div>
+                    <div class="news__cards-card2-author">
+                        <div class="news__cards-card2-author-avatar"><img src="./assets/images/news_avatar2.png" alt=""></div>
+                        <div class="news__cards-card2-author-namedate">
+                            <div class="news__cards-card2-author-namedate-name">DOMINIC FREEMAN</div>
+                            <div class="news__cards-card2-author-namedate-date">24 Apr 2017</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="news__cards-card3">
+                    <div class="news__cards-card3-pic"><img src="./assets/images/news_pic3.png" alt=""></div>
+                    <div class="news__cards-card3-tit">Hypnotize Yourself Into The Ghost.</div>
+                    <div class="news__cards-card3-article">There are many things that are important to catalog design...</div>
+                    <div class="news__cards-card3-author">
+                        <div class="news__cards-card3-author-avatar"><img src="./assets/images/news_avatar3.png" alt=""></div>
+                        <div class="news__cards-card3-author-namedate">
+                            <div class="news__cards-card3-author-namedate-name">ALICE WARD</div>
+                            <div class="news__cards-card3-author-namedate-date">30 Dec 2017</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    <div class="gallery" id="gallery">
+        <div class="gallery__upline"><svg version="1.1" id="svg_upline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="4px" xml:space="preserve">
+            <path class="path2" fill="black" stroke-width="3" stroke="#2c4058" d="M0 0 l1120 0"/>
+          </svg>
+          </div>
+        <div class="gallery__tit">GALLERY</div>
+        <div class="gallery__photos">
+            <div class="gallery__photos-left"><img src="./assets/images/gallery_pic1.png" alt=""></div>
+            <div class="gallery__photos-right">
+                <img src="./assets/images/gallery_pic2.png" alt="">
+                <img src="./assets/images/gallery_pic3.png" alt="">
+                <img src="./assets/images/gallery_pic4.png" alt="">
+                <img src="./assets/images/gallery_pic5.png" alt="">
+            </div>
+        </div>
+        <div class="gallery--button">
+            <button id="gallery--see_more" type="button">SEE MORE</button>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="contact__upline"><svg version="1.1" id="svg_upline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="4px" xml:space="preserve">
+            <path class="path2" fill="black" stroke-width="3" stroke="#2c4058" d="M0 0 l1120 0"/>
+          </svg></div>
+        <div class="contact__tit">GET IN TOUCH</div>
+        <div class="contact__lower">
+            <div class="contact__lower-credentials">
+                <p><span><i class="fas fa-map-marker-alt" ></i></span> 91 Nolan Extensions Suite 670</p>
+                <p><span><i class="fas fa-phone-alt"></i></span> +001 356-868-2454</p>
+                <p><span><i class="fas fa-envelope-open-text"></i></span> gahuy93@gmail.com</p>
+                <p><span><i class="far fa-clock"></i></span> From 07:05AM to 19:30PM</p>
+            </div>
+            <div class="contact__lower-form">
+                <div class="contact__lower-form-name">
+                    <input type="text" class="formfield" placeholder="Your name">
+                </div>
+                <div class="contact__lower-form-mail">
+                <input type="email" class="formfield" placeholder="Email"/>
+            </div>
+                <div class="contact__lower-form--button"><button type="submit" id="contact--submit">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__container">
+            <div class="footer__container-menu">
+                <a href="#header"><div class="footer__container-menu-home">HOME</div></a>
+                <a href="#projects"><div class="footer__container-menu-projects">PROJECTS</div></a>
+                <a href="#news"><div class="footer__container-menu-news">NEWS</div></a>
+                <a href="#gallery"><div class="footer__container-menu-gallery">GALLERY</div></a>
+                <a href="#header"><div class="footer__container-menu-about">ABOUT US</div></a>
+                <a href="#contact"><div class="footer__container-menu-contact">CONTACT</div></a>
+            </div>
+            <div class="footer__container-logomedia">
+                <div class="footer__container-logomedia-logo">
+                    <a href="http://www.monticello.org" target="blank"><img src="./assets/images/header_hud_logo.png"/></a>
+                </div>
+                <div class="footer__container-logomedia-media">
+                    <a href="http://facebook.com" target="blank"><div class="footer__fb"><img src="./assets/images/header_fb_ico.png" id="footer__fb"></div></a>
+                    <a href="http://twitter.com" target="blank"><div class="footer__tw"><img src="./assets/images/header_tw_ico.png" id="footer__tw"></div></a>
+                    <a href="http://instagram.com" target="blank"><div class="footer__inst"><img src="./assets/images/header_inst_ico.png" id="footer__inst"></div></a>
+                </div>
+            </div>
+                <div class="footer__container-copyrightsignature">
+                        <div class="footer__container-copyrightsignature-copyright">Copyrights © 2017 Monticello</div>
+                        <div class="footer__container-copyrightsignature-pipe">|</div> 
+                        <div class="footer__container-copyrightsignature-signature">Made with   <span id="heart"><i class="fas fa-heart"></i></span>    by Alex</div>
+                        <div class="footer__container-copyrightsignature-dummy"></div>
+                    </div>
+                
+            </div>
+
+    </div>
+<script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="  crossorigin="anonymous"></script>
+<script type="text/javascript" src="./slick/slick.min.js"></script>
+<script src="./scriptic.js"></script>
+</body>
+</html>
